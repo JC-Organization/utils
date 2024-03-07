@@ -1,7 +1,7 @@
 {
-  "name": "ts-hexagonal-architecture",
+  "name": "utils-in-ts-hexagonal-architecture",
   "version": "1.0.0",
-  "description": "Example project implementing hexagonal architecture in typescript",
+  "description": "This repository contains an API with several useful tools for everyday tasks, including a URL shortener, password generator, among others. It implements hexagonal architecture in TypeScript.",
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/app.ts",
@@ -9,17 +9,9 @@
     "build": "tsc",
     "lint": "eslint src/*"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jcrojasv/ts-hexagonal-architecture.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jcrojasv/ts-hexagonal-architecture/issues"
-  },
-  "homepage": "https://github.com/jcrojasv/ts-hexagonal-architecture#readme",
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
@@ -31,9 +23,16 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@types/inversify": "^2.0.33",
+    "@types/winston": "^2.4.4",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "uuid": "^9.0.1"
+    "inversify": "^6.0.2",
+    "mongoose": "^8.2.0",
+    "nanoid": "^3.3.7",
+    "reflect-metadata": "^0.2.1",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
   }
 }
